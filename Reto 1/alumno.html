@@ -1,0 +1,53 @@
+<html>
+  <head>
+      <title>Datos del alumno</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />    
+  </head>
+  <body>
+    <form action="validar.php" method="post">
+      <p>DATOS DEL ALUMNO:</p>
+      <p>Introducir nómbre: <input type="text" name="name"></p>
+      <p>Introducir telefono: <input type="text" name="telephone"></p> 
+      <p>Matriculado <input type="checkbox" name="enrolled" value="0"></p> 
+      <p>Enseñanza: 
+       <br>
+        <input id="secundaria" type="radio" name="course" value="secundaria" disabled> Secundaria
+        <input type="radio" name="course" value="bachillerato" disabled> Bachillerato
+        <input type="radio" name="course" value="gradoMedio" disabled> Grado medio
+        <input type="radio" name="course" value="gradoSuperior" disabled> Grado superior
+        <p>Actividades extraescolares: 
+          <select name="extraActivities" disabled>
+            <option value="deporte">Deporte</option>
+            <option value="idioma">Idioma</option>
+            <option value="musica">Musica</option>
+            <option value="lectura">Lectura</option>
+          </select>
+          </p>
+        <br>
+        <input type="submit" value="Enviar datos">      
+      </p>
+    </form>
+    <script>
+      
+      var enrolled = document.querySelector("input[name=enrolled]");
+      
+      enrolled.addEventListener( 'change', function() {
+      var course = document.getElementsByName("course");
+        if(this.checked) {
+          course[0].disabled=false;  
+          course[1].disabled=false;
+          course[2].disabled=false;
+          course[3].disabled=false;
+          document.getElementsByName("extraActivities")[0].disabled=false;
+        } else {
+          course[0].disabled=true; course[0].checked=false;  
+          course[1].disabled=true; course[1].checked=false;
+          course[2].disabled=true; course[2].checked=false;
+          course[3].disabled=true; course[3].checked=false;
+          document.getElementsByName("extraActivities")[0].disabled=true;
+        }                      
+      });
+      
+    </script>
+  </body>
+</html>
