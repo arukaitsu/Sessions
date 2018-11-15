@@ -1,2 +1,2 @@
-# Sessions
-PHP Session control
+# Forms / Sessions
+PHP Forms and session controls
