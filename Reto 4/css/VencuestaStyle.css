@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes open {
+  from { width: 0px }
+  to { width: 520px }
+}
+
+#form > h1 {
+	font-family: 'Poiret One', cursive;
+}
+
+#form {
+  border: 3px solid #2ECC71;
+  border-radius: 5px;
+  width: 520px; /* Cambiar width a 0 si se activa la animacion */ 
+  margin: 0 auto;
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+  /*animation: open 0.75s linear forwards;*/
+  background-color: #F4F6F6;
+}
+
+#submitButton {
+  padding: 5px;
+  border: 2px solid #2ECC71;
+  border-radius: 5px;
+  font-size:15.8px;
+  cursor: pointer;
+}
+
+#form > a  {
+  text-decoration: none;
+  color: #000000;
+}
+
+#form > a > i {
+	color: #2ECC71;	
+}
+
+#form > span {
+  color: red;
+  font-size: 0.7em;
+}
+
+#identificationDiv {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  /*border:1px solid red;*/
+}
+
+#identificationDiv > p > span {
+    color: #2471A3;
+    font-weight: bold;
+}
+
+#identificationDiv > p > a {
+  text-decoration: none;
+}
+
+#identificationDiv > p > a:hover {
+    text-decoration: underline;
+}
+
+#identificationDiv > a, p > a {
+    text-decoration: none;
+    color: #2980B9;
+}
+
+#identificationDiv > a > i {
+  color: #2980B9;
+}

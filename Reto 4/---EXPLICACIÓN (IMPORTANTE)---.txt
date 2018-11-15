@@ -1,0 +1,28 @@
+
+
+Cuentas con las que iniciar sesión (el ejercicio pide encriptar las contraseñas, por eso las pongo aquí):
+---------------------------
+Nombre: Oihan
+Contraseña: 123oihan
+---------------------------
+Nombre: María
+Contraseña: 123maria
+---------------------------
+Nombre: Botxan
+Contraseña: 123botxan
+
+
+
+Carpetas dentro de Reto_4_Oihan_Irastorza_Carrasco:
+
+css - Incluye todos los archivos css.
+
+db - Incluye la base de datos en formato .sql.
+
+img - Incluye todas las imágenes, tanto las que inserto desde mi página web como las descargadas desde moodle.
+
+adicionales - Incluye las páginas .php de más que tenido que hacer por necesidad u optimización de código.
+
+funciones - Incluye los archivos .php que pide el ejercicio hacer en una librería de funciones (conexión a la base de datos, calcular el precio de las viviendas).
+
+viviendas - Incluye el archivo de texto viviendas.txt, en el cual se muestra la información de las viviendas que hay en la base de datos / página web. Se auto-modifica siempre que inserta, modifica o borra una vivienda (NO MODIFICAR SI NO ES ESTRICAMENTE NECESARIO). Este directorio incluye también una copia de seguridad (copiaViviendasEjemplo.txt) que almacena los datos de las 5 viviendas de ejemplo de moodle.

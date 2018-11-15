@@ -1,0 +1,62 @@
+* {
+	font-family: 'KoHo', sans-serif;
+	font-size: 1em;
+}
+
+table {
+	width: 90%;
+}
+
+table, th, td {
+	border: 1.5px solid #2471A3;
+	margin: 0 auto;
+}
+
+th, td {
+	padding: 5px;
+}
+
+tr:nth-child(odd) {
+	background-color: #EAECEE ;
+}
+
+#identificationDiv {
+	width: 90%;
+	margin: 0 auto;
+	text-align: right;
+	/*border: 1px solid red;*/
+}
+
+#identificationDiv > p > span {
+  	color: #2471A3;
+  	font-weight: bold;
+}
+
+#identificationDiv > p > a {
+	text-decoration: none;
+}
+
+#identificationDiv > p > a:hover {
+  	text-decoration: underline;
+}
+
+#borradoDiv {
+	width: 100%;
+	text-align: center;
+}
+
+#borradoDiv > a {
+	text-decoration: none;
+	background-color: #D5D8DC;
+	padding: 2px 5px 2px 5px;
+	border-width: 0px 3px 0px 3px;
+	border-style: solid;
+	border-color: red;
+	color: #000000;
+	transition: border-width 0.2s;
+	font-weight: bold;
+}
+
+#borradoDiv > a:hover {
+	border-width: 2px 0px 2px 0px;
+}

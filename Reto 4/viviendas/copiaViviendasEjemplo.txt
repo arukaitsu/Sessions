@@ -1,0 +1,5 @@
+1 , Equitativa , Casa en Donostia con vistas al rio Urumea. , 60.00 , 240000.00 , costas , 2018-10-13 22:18:25 , img/ico-fichero.gif
+2 , Promoción en Costa Ballena , Con vistas al campo de golf, magníficas calidades, entorno ajardinado con piscina y servicio de vigilancia. , 55.00 , 220000.00€ , costas , 2018-10-13 , 22:20:48 , img/ico-fichero.gif
+3 , Apartamento en el Puerto de Sta María , En la playa de Valdegrana, en primera línea de playa. Pisos reformados y completamente amueblados. , 50.00 , 200000.00€ , costas , 2018-11-10 17:48:09 , img/ico-fichero.gif
+4 , Últimas viviendas junto al río , Apartamentos de 1 y 2 dormitorios, con fantásticas vistas. Excelentes condiciones de financiación. , 50.00 , 200000.00€ , ofertas , 2018-10-13 22:21:21 , img/apartamento9.jpg
+5 , Nueva promoción en Nervión , 145 viviendas de lujo en urbanización ajardinada situadas en un entorno privilegiado. , 70.00 , 175000.00€ , promociones , 2018-10-13 22:21:21 , img/apartamento8.jpg
