@@ -1,0 +1,9 @@
+Carpetas dentro de Reto_3_Oihan_Irastorza_Carrasco:
+
+css - Incluye todos los archivos de hojas de estilos.
+
+db - Incluye la base de datos en formato .sql.
+
+img - Incluye todas las imágenes, tanto las que inserto como las descargadas de moodle.
+
+adicionales - Incluye las páginas .php de más que he hecho por necesidad u optimización de código.

@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#menu {
+	border: 2px solid #21618C;
+	border-radius: 5px;
+	width: 400px;
+	margin: 0 auto;
+	padding: 40px 10px 40px 20px;	
+	background-color: #F2F4F4;
+}
+
+#menu > h1 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+
+
+#menu > div:nth-child(4) {
+	border: 1px solid #21618C;
+	border-radius: 5px;
+   	font-size: 1em;
+   	width: 50%;
+   	margin: 0 auto;
+   	padding: 10px;
+    background: linear-gradient(to right, #566573 50%, #ABB2B9 50%);
+    background-size: 200% 100%;
+    background-position:left;
+    transition:background-position 2s ease;
+}
+
+#menu > div:nth-child(6) {
+	border: 1px solid #21618C;
+	border-radius: 5px;
+   	font-size: 1em;
+   	width: 50%;
+   	margin: 0 auto;
+   	padding: 10px;
+    background: linear-gradient(to right, #27AE60 50%, #82E0AA 50%);
+    background-size: 200% 100%;
+    background-position:left;
+    transition:background-position 2s ease;
+}
+
+#menu > div:nth-child(8) {
+	border: 1px solid #21618C;
+	border-radius: 5px;
+   	font-size: 1em;
+   	width: 50%;
+   	margin: 0 auto;
+   	padding: 10px;
+    background: linear-gradient(to right, #2874A6 50%, #2E86C1 50%);
+    background-size: 200% 100%;
+    background-position:left;
+    transition:background-position 2s ease;
+}
+
+#menu > div:nth-child(10) {
+	border: 1px solid #21618C;
+	border-radius: 5px;
+   	font-size: 1em;
+   	width: 50%;
+   	margin: 0 auto;
+   	padding: 10px;
+    background: linear-gradient(to right, #B03A2E 50%, #EC7063 50%);
+    background-size: 200% 100%;
+    background-position:left;
+    transition:background-position 2s ease;
+}
+
+#menu > div {
+	background-size: 200% 100%;
+    background-position:left;
+    transition:background-position 2s ease;
+}
+
+
+#menu > div:hover {
+    background-position:right;
+}
+
+#menu > div > a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+#menu > div > a > span {
+	float: right;
+	font-size: 1.2em;
+	margin-top: -3px;
+}
+
+#identification {
+  text-align: right;
+  margin-right: 5%;
+  color: ;
+}
+
+#identification > span {
+  color: #2471A3;
+  font-weight: bold;
+}
+
+#identification > a {
+  text-decoration: none;
+  color: #2471A3;;
+}
+
+#identification > a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	white-space: nowrap;
+}
+
+@keyframes open {
+	 from { width: 0px }
+	 to { width: 545px }
+}
+
+#form {
+	border: 3px solid #21618C;
+	border-radius: 5px;
+	width: 545px; /* Cambiar width a 0 si se descomenta la animacion */ 
+	margin: 0 auto;
+	padding: 30px 30px 30px 30px;
+	overflow: hidden;
+	/*animation: open 0.75s linear forwards;*/
+	background-color: #F4F6F6;
+}
+
+#form > h1 {
+  	font-family: 'Poiret One', cursive;
+  	font-size: 31.8px;
+}
+
+#form > label, p {
+	font-weight: bold;
+}
+
+#form > input[type=text], input[type=password]  {
+	width: 80%;
+	padding: 3px;
+	font-weight: normal;
+}
+
+#form > select {
+	padding: 3px;
+	font-weight: normal;
+}
+
+#form > input[type=button], #submitButton {
+	padding: 2px 5px 2px 5px;
+	border: 2px solid #21618C;
+	border-radius: 5px;
+	font-size:15.8px;
+	cursor: pointer;
+	transition: background-color 1s;
+}
+
+#form > input[type=button]:hover, #submitButton:hover {
+	background-color: #F2F4F4;
+}
+
+#form > a {
+	text-decoration: none;
+	color: #000000;
+	transition: color 1s ease;
+}
+
+#form > a > i {
+	color: #3498DB;
+}
+
+#form > span {
+	color: red;
+	font-size: 0.7em;
+}
+
+#identificationDiv {
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  /*border:1px solid red;*/
+}
+
+#identificationDiv > p > span {
+    color: #2471A3;
+    font-weight: bold;
+}
+
+#identificationDiv > p > a {
+  text-decoration: none;
+}
+
+#identificationDiv > p > a:hover {
+    text-decoration: underline;
+}
+
+#identificationDiv > a {
+    text-decoration: none;
+}
+
+#identificationDiv > a > i {
+  color: #2ECC71;
+}
+
+#exito {
+	width: 545px;
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+	color: green;
+}

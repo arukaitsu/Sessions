@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+div {
+	width: 40%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+ {
+	border: 1px solid red;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#registroBorrado {
+	margin: 0 auto;
+	border: 3px solid #5DADE2; 
+	padding: 15px;
+	font-family: monospace;
+	font-size: 1.2em;
+}

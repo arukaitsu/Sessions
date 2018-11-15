@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/*@keyframes open {
+  from { width: 0px }
+  to { width: 600px }
+}*/
+
+#form {
+  border: 3px solid #196F3D;
+  border-radius: 5px;
+  width: 0px; 
+  margin: 0 auto;
+  width: 600px; /*Quitar el width si se descomenta la animación y la keyframe "open"*/
+  padding: 30px 30px 30px 30px;
+  overflow: hidden;
+  /*animation: open 0.75s linear forwards;*/
+  background-color: #F4F6F6;
+}
+
+#form > h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 31.8px;
+}
+
+#form > h1, label, a {
+  white-space: nowrap;
+}
+
+#form > input[type=text], input[type=password]  {
+  width: 95%;
+  padding: 3px;
+  font-weight: normal;
+}
+
+#submitButton {
+  padding: 5px;
+  border: 2px solid #196F3D;
+  border-radius: 5px;
+  font-size:15.8px;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+}
+
+
+#form a  {
+  text-decoration: none;
+  width: 100%;
+  border: 2px solid #21618C;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000000;
+  background-color: buttonface;
+}
+
+#form a:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.7em;
+}
